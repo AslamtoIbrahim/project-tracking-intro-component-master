@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './Header/Header'
+import Main from './Main/Main'
 
 const page = () => {
   return (
     <div>
-      hello react
+      <Header />
+      <Main />
     </div>
   )
 }
