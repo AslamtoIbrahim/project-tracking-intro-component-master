@@ -27,6 +27,10 @@ export default {
       },
       backgroundImage:{
         hero:"url('../../public/source/images/illustration-devices.svg')"
+      },
+      screens : {
+        xs : '425px',
+        xxs : '320px',
       }
     },
   },
