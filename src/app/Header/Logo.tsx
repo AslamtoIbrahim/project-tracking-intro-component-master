@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Logo = () => {
   return (
     <div>
-      <Image className='w-5 md:w-6 lg:w-7 xl:w-8 h-auto' src={logo} alt='logo image' />
+      <Image className='cursor-pointer w-5 md:w-6 lg:w-7 xl:w-8  h-auto' src={logo} alt='logo image' />
     </div>
   )
 }
