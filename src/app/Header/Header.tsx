@@ -9,7 +9,7 @@ const Header = () => {
   const toggleMenu = () => setopenMenu(!openMenu);
   return (
     <div className="relative transition-all duration-300 ease-in-out ">
-      <nav className="w-full flex items-center justify-between p-8">
+      <nav className="w-full flex items-center justify-between p-6">
         <Logo />
         <MenuButton toggleMenu={toggleMenu} />
       </nav>

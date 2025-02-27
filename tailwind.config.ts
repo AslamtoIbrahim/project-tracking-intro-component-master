@@ -25,6 +25,9 @@ export default {
         barlow: ["var(--font-barlow)", "sans-serif"],
         barlowCond: ["var(--font-barlow-condensed)", "sans-serif"],
       },
+      backgroundImage:{
+        hero:"url('../../public/source/images/illustration-devices.svg')"
+      }
     },
   },
   plugins: [],

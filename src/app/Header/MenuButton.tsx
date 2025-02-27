@@ -14,7 +14,7 @@ const MenuButton = ({ toggleMenu }: prop) => {
     toggleMenu?.();
   };
   return (
-    <button onClick={handelClick}>
+    <button className="md:hidden" onClick={handelClick}>
       <Image  src={isOpen ? close : open} alt="Menu" width={20} height={20} />
     </button>
   );
